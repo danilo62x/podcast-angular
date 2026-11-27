@@ -1,0 +1,567 @@
+{
+  "brand": "Onda",
+  "common": {
+    "search": "Search",
+    "noResults": "No results",
+    "previous": "Previous",
+    "next": "Next",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "remove": "Remove",
+    "add": "Add",
+    "all": "All",
+    "theme": "Theme",
+    "loading": "Loading",
+    "actions": "Actions",
+    "status": "Status",
+    "viewAll": "View all",
+    "optional": "optional",
+    "apply": "Apply",
+    "clear": "Clear filters",
+    "copy": "Copy",
+    "minutes": "min"
+  },
+  "nav": {
+    "home": "Home",
+    "episodes": "Episodes",
+    "about": "About",
+    "login": "Sign in",
+    "studio": "Studio",
+    "listenNow": "Listen now"
+  },
+  "footer": {
+    "tagline": "Conversations about work, craft and technology. A new episode every Thursday morning.",
+    "rights": "All rights reserved.",
+    "docs": "Press",
+    "help": "Contact",
+    "privacy": "Privacy"
+  },
+  "appNav": {
+    "showSection": "Show",
+    "growthSection": "Audience",
+    "settingsSection": "Account",
+    "dashboard": "Overview",
+    "episodes": "Episodes",
+    "guests": "Guests",
+    "audience": "Audience",
+    "distribution": "Distribution",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "collapse": "Collapse menu",
+    "logout": "Sign out",
+    "viewSite": "View the show page",
+    "nextTitle": "Coming up",
+    "nextDesc": "{{count}} scheduled episodes",
+    "openSchedule": "Open the schedule"
+  },
+  "notifications": {
+    "episodeLive": "Episode is live: {{name}}",
+    "feedError": "The {{name}} feed returned an error",
+    "sponsorEnding": "The {{name}} contract ends this month",
+    "minutes12": "12 minutes ago",
+    "hours2": "2 hours ago",
+    "yesterday": "Yesterday"
+  },
+  "auth": {
+    "loginTitle": "Sign in to the studio",
+    "loginSubtitle": "Publish the episode, follow the audience and handle distribution.",
+    "registerTitle": "Create account",
+    "registerSubtitle": "Start publishing your show today.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "showName": "Show name",
+    "remember": "Keep me signed in",
+    "forgot": "Forgot password",
+    "loginCta": "Sign in",
+    "registerCta": "Create account",
+    "loggingIn": "Signing in…",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Sign in",
+    "loginError": "Enter your email and password.",
+    "loginSuccess": "Welcome back",
+    "registerSuccess": "Account created",
+    "demoTitle": "Demo account",
+    "demoHint": "Fake authentication: any email and password get you in.",
+    "terms": "I accept the terms of use and the privacy policy."
+  },
+  "validation": {
+    "required": "Required field",
+    "email": "Invalid email",
+    "min": "Write at least {{count}} characters"
+  },
+  "episodeStatuses": {
+    "rascunho": "Draft",
+    "agendado": "Scheduled",
+    "publicado": "Published"
+  },
+  "adSlots": {
+    "pre-roll": "Pre-roll",
+    "mid-roll": "Mid-roll",
+    "pos-roll": "Post-roll"
+  },
+  "feedStates": {
+    "ativo": "Active",
+    "pendente": "Pending",
+    "erro": "Failing"
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "listen": "Listen",
+    "back15": "Back 15 seconds",
+    "forward15": "Forward 15 seconds",
+    "speed": "Speed",
+    "volume": "Volume",
+    "close": "Close the player",
+    "noChapter": "No chapter at this point"
+  },
+  "episode": {
+    "seasonEpisode": "S{{season}} · Ep. {{number}}",
+    "season": "Season {{season}}",
+    "explicit": "Explicit",
+    "chapters": "Chapters",
+    "chaptersHint": "Click a chapter to jump the player to that point.",
+    "noChapters": "This episode has no chapters yet.",
+    "transcript": "Transcript",
+    "transcriptHint": "The line for the current second is highlighted; click it to jump there.",
+    "about": "About this episode",
+    "guests": "Guests",
+    "links": "Links mentioned",
+    "related": "Related episodes",
+    "tags": "Topics",
+    "downloads": "Downloads",
+    "listeners": "Unique listeners",
+    "completion": "Completion rate",
+    "duration": "Duration",
+    "publishedOn": "Published on {{date}}",
+    "playFrom": "Listen from {{time}}",
+    "countdownDays": "In {{days}}d {{hours}}h",
+    "countdownHours": "In {{hours}}h {{minutes}}min",
+    "countdownNow": "Publishing now",
+    "notFoundTitle": "Episode not found",
+    "notFoundDesc": "It may have gone back to draft or changed address.",
+    "backToList": "See every episode"
+  },
+  "transcript": {
+    "emptyTitle": "Transcript in progress",
+    "emptyDesc": "The transcript for this episode is not ready yet. The chapters already help you navigate.",
+    "searchPlaceholder": "Search the transcript",
+    "follow": "Follow the player"
+  },
+  "guest": {
+    "eyebrow": "Guest",
+    "episodeCount": "{{count}} episodes",
+    "episodes": "Appeared on these episodes",
+    "links": "Where to find them",
+    "notFoundTitle": "Guest not found",
+    "notFoundDesc": "The address does not exist or the profile was removed.",
+    "back": "See every episode"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Latest episode",
+      "badge": "{{count}} published episodes",
+      "notes": "Read the show notes",
+      "chapters": "{{count}} chapters"
+    },
+    "seasons": {
+      "eyebrow": "Archive",
+      "title": "Seasons",
+      "subtitle": "Each season holds eight conversations around a single question.",
+      "episodes": "{{count}} episodes",
+      "open": "See the episodes"
+    },
+    "recent": {
+      "eyebrow": "New",
+      "title": "Recent episodes",
+      "subtitle": "The latest conversations, with chapters and transcript.",
+      "all": "See every episode"
+    },
+    "hosts": {
+      "eyebrow": "Your hosts",
+      "title": "The voices of the show",
+      "subtitle": "Two people in the booth, one question per episode."
+    },
+    "platforms": {
+      "eyebrow": "Where to listen",
+      "title": "Pick your player",
+      "subtitle": "Onda is on every aggregator that reads RSS.",
+      "followers": "{{count}} followers",
+      "open": "Open"
+    },
+    "newsletter": {
+      "title": "Get the episode by email",
+      "subtitle": "One note a week with the show notes and the links mentioned. Nothing else.",
+      "placeholder": "you@email.com",
+      "cta": "Sign me up",
+      "success": "Done! Confirm it in the email we just sent.",
+      "hint": "You can unsubscribe in one click, from any email."
+    }
+  },
+  "episodes": {
+    "eyebrow": "Full archive",
+    "title": "Episodes",
+    "subtitle": "Search by topic, filter by season, guest or length.",
+    "searchPlaceholder": "Search by title, topic or theme",
+    "season": "Season",
+    "allSeasons": "All seasons",
+    "guest": "Guest",
+    "allGuests": "All guests",
+    "duration": "Length",
+    "durations": {
+      "all": "Any length",
+      "curto": "Up to 30 min",
+      "medio": "30 to 50 min",
+      "longo": "Over 50 min"
+    },
+    "sort": "Sort",
+    "sorts": {
+      "recentes": "Newest first",
+      "antigos": "Oldest first",
+      "populares": "Most listened",
+      "longos": "Longest",
+      "curtos": "Shortest"
+    },
+    "count": "{{count}} episodes",
+    "emptyTitle": "No episode found",
+    "emptyDesc": "Try another term or drop one of the filters."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "The show",
+    "subtitle": "One conversation a week with people who do the work — no lecture, no shortcut.",
+    "showText1": "Onda started as a complaint: almost every interview about work stays on the surface. We wanted the boring part — how the decision was made, what it cost and what the person would do differently.",
+    "showText2": "Three seasons, eight episodes each, recorded in the studio and published with chapters and a transcript. No guest returns just because the numbers were good.",
+    "hostsTitle": "Your hosts",
+    "hostsSubtitle": "Two people in the booth, one question per episode.",
+    "sponsorTitle": "Sponsor Onda",
+    "sponsorSubtitle": "Host-read insertions in pre, mid or post-roll. No programmatic ads.",
+    "kit": {
+      "downloads": "Lifetime downloads",
+      "listeners": "Unique listeners",
+      "completion": "Average completion rate",
+      "episodes": "Published episodes",
+      "cta": "Request the media kit"
+    },
+    "faqTitle": "Frequently asked",
+    "faqSubtitle": "What lands in our inbox the most.",
+    "faq": {
+      "q1": "How often does a new episode come out?",
+      "a1": "Every Thursday morning while a season runs. Between seasons we stop for a few months to record the next batch.",
+      "q2": "Where can I listen?",
+      "a2": "In any app that reads RSS. The feed is public and sits in the footer of this page; nothing is exclusive to one platform.",
+      "q3": "Do episodes have transcripts?",
+      "a3": "Everything published from season two on has a synced transcript. Clicking a line takes the player to that point.",
+      "q4": "How do I suggest a guest?",
+      "a4": "Write to the show email telling us who they are and which question you would like answered. Suggestions without a question usually go nowhere.",
+      "q5": "Can I use an excerpt in my own material?",
+      "a5": "Yes, crediting the show and the episode number. For commercial use, talk to us first.",
+      "q6": "Do you accept sponsorship from any company?",
+      "a6": "No. We turn down payday loans, betting and get-rich-quick courses, and we say it on air whenever the sponsor comes up in the conversation."
+    }
+  },
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "How the show is doing this month.",
+    "kpi": {
+      "monthDownloads": "Downloads this month",
+      "monthDownloadsHint": "Compared with last month",
+      "listeners": "Unique listeners",
+      "listenersHint": "Across every published episode",
+      "completion": "Completion rate",
+      "completionHint": "Weighted by downloads",
+      "subscribers": "Newsletter subscribers",
+      "subscribersHint": "They get the weekly note"
+    },
+    "charts": {
+      "daily": "Downloads per day",
+      "dailySeries": "Downloads",
+      "dailyHint": "Last {{count}} days",
+      "monthly": "Downloads per month",
+      "monthlyHint": "Last 12 months"
+    },
+    "topEpisodes": "Most listened episodes",
+    "upcoming": "Coming up",
+    "noUpcoming": "No episode scheduled right now.",
+    "scheduleOne": "Schedule an episode",
+    "openEpisode": "Open in the editor"
+  },
+  "episodesAdmin": {
+    "title": "Episodes",
+    "subtitle": "Publish, schedule or duplicate. Length and metrics come from the episode itself.",
+    "new": "New episode",
+    "searchPlaceholder": "Search by title or topic",
+    "allStatus": "All statuses",
+    "allSeasons": "All seasons",
+    "table": {
+      "episode": "Episode",
+      "season": "Season",
+      "duration": "Length",
+      "downloads": "Downloads",
+      "date": "Date",
+      "status": "Status"
+    },
+    "publish": "Publish now",
+    "schedule": "Schedule",
+    "duplicate": "Duplicate",
+    "unpublish": "Move back to draft",
+    "open": "Open editor",
+    "published": "Episode published",
+    "scheduled": "Episode scheduled",
+    "duplicated": "Episode duplicated",
+    "unpublished": "Episode moved back to draft",
+    "removed": "Episode removed",
+    "confirmRemove": "Delete this episode?",
+    "confirmRemoveDesc": "This cannot be undone in the demo.",
+    "scheduleTitle": "Schedule publication",
+    "scheduleHint": "The episode joins the feed automatically on the chosen date.",
+    "scheduleDate": "Date and time",
+    "emptyTitle": "No episode found",
+    "emptyDesc": "Adjust the filters or create a new episode."
+  },
+  "editor": {
+    "newTitle": "New episode",
+    "newSubtitle": "Start with the title; everything else can wait.",
+    "editTitle": "Edit episode",
+    "untitled": "Untitled episode",
+    "saved": "Episode saved",
+    "created": "Episode created",
+    "backToList": "Back to the list",
+    "viewPublic": "View on the show page",
+    "tabs": {
+      "audio": "Audio",
+      "notes": "Notes",
+      "guests": "Guests",
+      "transcript": "Transcript",
+      "publish": "Publishing"
+    },
+    "audio": {
+      "waveTitle": "Episode track",
+      "dragHint": "Drag the markers to change where a chapter starts.",
+      "chapterTitle": "Chapter title",
+      "chapterStart": "Chapter start",
+      "addChapter": "Add chapter",
+      "goTo": "Listen from here",
+      "trimTitle": "Track trim",
+      "trimHint": "Trimming does not change the file in this demo — it marks the usable range.",
+      "trimStart": "Start",
+      "trimEnd": "End",
+      "trimResult": "Usable range: {{duration}}",
+      "durationTitle": "Track length",
+      "durationHint": "Everything shown as time is derived from this value."
+    },
+    "notes": {
+      "title": "Description in blocks",
+      "hint": "This is what shows on the episode page and in the RSS feed.",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "addItem": "Add item",
+      "itemPlaceholder": "One topic per line",
+      "linkLabel": "Link text",
+      "blocks": {
+        "paragraph": "Paragraph",
+        "heading": "Heading",
+        "list": "List",
+        "quote": "Quote",
+        "link": "Link"
+      },
+      "placeholders": {
+        "paragraph": "Explain in three to five lines what the episode is about.",
+        "heading": "Section title",
+        "quote": "The best line of the conversation"
+      }
+    },
+    "guests": {
+      "title": "Who takes part",
+      "hint": "Tick the guests of this episode. Their profile lists the episodes automatically.",
+      "selected": "{{count}} selected",
+      "empty": "No guest registered yet."
+    },
+    "transcriptTab": {
+      "title": "Transcript blocks",
+      "hint": "Edit the text, change the speaker and listen from each line.",
+      "speaker": "Speaker",
+      "text": "Text",
+      "empty": "This episode has no transcript yet."
+    },
+    "publish": {
+      "title": "Title",
+      "titlePlaceholder": "When the team doubled in size",
+      "subtitle": "Subtitle",
+      "subtitlePlaceholder": "One line that shows in the list and in the feed.",
+      "slug": "Address",
+      "season": "Season",
+      "number": "Episode number",
+      "status": "Status",
+      "date": "Publication date",
+      "scheduledAt": "Publish on",
+      "tags": "Topics",
+      "tagsPlaceholder": "Type and press Enter",
+      "explicit": "Explicit content",
+      "explicitHint": "Marks the episode as explicit in the feed.",
+      "cover": "Cover seed",
+      "coverHint": "The cover is generated from the seed — change the word to change the image."
+    }
+  },
+  "audience": {
+    "title": "Audience",
+    "subtitle": "Where the downloads come from and where people stop listening.",
+    "kpi": {
+      "downloads": "Lifetime downloads",
+      "listeners": "Unique listeners",
+      "completion": "Average completion",
+      "episodes": "Published episodes"
+    },
+    "byEpisode": "Downloads per episode",
+    "byEpisodeHint": "Only published episodes are counted.",
+    "byPlatform": "By platform",
+    "byCountry": "By country",
+    "retention": "Retention curve",
+    "retentionHint": "Twenty points across the episode. The note marks the biggest drop.",
+    "selectEpisode": "Episode",
+    "dropAt": "Biggest drop at {{time}} ({{delta}})",
+    "noRetention": "No retention data for this episode.",
+    "downloads": "Downloads",
+    "completion": "Completion",
+    "listeners": "Listeners",
+    "emptyTitle": "Nothing to show yet",
+    "emptyDesc": "Publish an episode to start following the audience."
+  },
+  "distribution": {
+    "title": "Distribution",
+    "subtitle": "The feed, the state of each platform and the sponsors.",
+    "feedTitle": "RSS feed",
+    "feedHint": "This is the address you register in each aggregator.",
+    "copy": "Copy XML",
+    "copyUrl": "Copy address",
+    "copied": "Copied to the clipboard",
+    "copyFailed": "Could not copy",
+    "xmlTitle": "XML preview",
+    "xmlHint": "Generated from the published episodes — {{count}} items in the preview.",
+    "showAll": "Show the whole feed",
+    "showLess": "Show less",
+    "platforms": "Platforms",
+    "platformsHint": "State of the last sync for each aggregator.",
+    "followers": "Followers",
+    "lastSync": "Last sync",
+    "open": "Open",
+    "resync": "Sync again",
+    "resynced": "Sync requested",
+    "sponsors": "Sponsors",
+    "sponsorsHint": "Host-read insertions, by ad slot."
+  },
+  "sponsors": {
+    "impressions": "Impressions",
+    "cpm": "CPM",
+    "revenue": "Estimated",
+    "inEpisodes": "On {{count}} episodes",
+    "editTitle": "Edit sponsor",
+    "name": "Name",
+    "slot": "Ad slot",
+    "cpmField": "CPM (per thousand)",
+    "episodes": "Episodes with an insertion",
+    "saved": "Sponsor updated",
+    "totalRevenue": "Estimated revenue"
+  },
+  "guestsAdmin": {
+    "title": "Guests",
+    "subtitle": "Photo, bio, links and the episodes each person appeared on.",
+    "new": "New guest",
+    "searchPlaceholder": "Search by name, role or bio",
+    "newTitle": "New guest",
+    "editTitle": "Edit guest",
+    "created": "Guest created",
+    "updated": "Guest updated",
+    "removed": "Guest removed",
+    "confirmRemove": "Remove this guest?",
+    "confirmRemoveDesc": "They are also removed from the episodes they were tagged on.",
+    "episodes": "Episodes",
+    "viewPublic": "View the public profile",
+    "emptyTitle": "No guests",
+    "emptyDesc": "Add the first person so you can tag them on episodes.",
+    "form": {
+      "name": "Name",
+      "slug": "Address",
+      "role": "Role",
+      "bio": "Bio",
+      "avatar": "Photo seed",
+      "avatarHint": "The photo is generated from the seed — change the word to change the image.",
+      "links": "Links",
+      "linkLabel": "Label",
+      "linkHref": "Address",
+      "addLink": "Add link"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Profile, show details, monetization and preferences.",
+    "saved": "Preference saved",
+    "tabs": {
+      "profile": "Profile",
+      "show": "Show",
+      "monetization": "Monetization",
+      "appearance": "Appearance"
+    },
+    "profile": {
+      "title": "Profile details",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "saved": "Profile updated"
+    },
+    "show": {
+      "title": "Show details",
+      "name": "Name",
+      "tagline": "Tagline",
+      "category": "Category",
+      "language": "Content language",
+      "email": "Contact email",
+      "cover": "Cover seed",
+      "explicit": "Show has explicit content",
+      "explicitHint": "Marks the whole show as explicit in the feed.",
+      "saved": "Show updated"
+    },
+    "monetization": {
+      "title": "Monetization",
+      "ads": "Accept sponsorship",
+      "adsDesc": "Lets you tag insertions on episodes.",
+      "dynamic": "Dynamic insertion",
+      "dynamicDesc": "Swaps the ad on old episodes without republishing.",
+      "supporters": "Recurring support",
+      "supportersDesc": "Shows the support button on the show page.",
+      "cpmFloor": "Minimum CPM accepted",
+      "estimated": "Estimated revenue this month"
+    },
+    "appearance": {
+      "dark": "Dark theme",
+      "darkDesc": "Applies to the show page and to the studio.",
+      "language": "Interface language",
+      "languageHint": "Changes the interface only. Episode content stays in the language it was recorded in."
+    },
+    "reset": {
+      "title": "Restore the demo data",
+      "desc": "Puts episodes, guests and sponsors back to their original state.",
+      "action": "Restore",
+      "done": "Demo data restored"
+    }
+  },
+  "cookie": {
+    "title": "We use cookies",
+    "desc": "We use cookies to remember your position in the episode and your playback preferences.",
+    "policy": "Privacy policy",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The address does not exist or the content has moved.",
+    "back": "Back to the studio",
+    "home": "Go to the show page"
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "brand": "Onda",
+  "common": {
+    "search": "Buscar",
+    "noResults": "Nenhum resultado",
+    "previous": "Anterior",
+    "next": "Avançar",
+    "back": "Voltar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "edit": "Editar",
+    "remove": "Remover",
+    "add": "Adicionar",
+    "all": "Todos",
+    "theme": "Tema",
+    "loading": "Carregando",
+    "actions": "Ações",
+    "status": "Situação",
+    "viewAll": "Ver tudo",
+    "optional": "opcional",
+    "apply": "Aplicar",
+    "clear": "Limpar filtros",
+    "copy": "Copiar",
+    "minutes": "min"
+  },
+  "nav": {
+    "home": "Início",
+    "episodes": "Episódios",
+    "about": "Sobre",
+    "login": "Entrar",
+    "studio": "Estúdio",
+    "listenNow": "Ouvir agora"
+  },
+  "footer": {
+    "tagline": "Conversas sobre trabalho, ofício e tecnologia. Episódio novo toda quinta, de manhã.",
+    "rights": "Todos os direitos reservados.",
+    "docs": "Imprensa",
+    "help": "Contato",
+    "privacy": "Privacidade"
+  },
+  "appNav": {
+    "showSection": "Programa",
+    "growthSection": "Audiência",
+    "settingsSection": "Conta",
+    "dashboard": "Visão geral",
+    "episodes": "Episódios",
+    "guests": "Convidados",
+    "audience": "Audiência",
+    "distribution": "Distribuição",
+    "settings": "Configurações",
+    "notifications": "Notificações",
+    "collapse": "Recolher menu",
+    "logout": "Sair",
+    "viewSite": "Ver a página do programa",
+    "nextTitle": "Próximas publicações",
+    "nextDesc": "{{count}} episódios agendados",
+    "openSchedule": "Abrir a agenda"
+  },
+  "notifications": {
+    "episodeLive": "Episódio no ar: {{name}}",
+    "feedError": "O feed de {{name}} respondeu com erro",
+    "sponsorEnding": "O contrato de {{name}} termina neste mês",
+    "minutes12": "Há 12 minutos",
+    "hours2": "Há 2 horas",
+    "yesterday": "Ontem"
+  },
+  "auth": {
+    "loginTitle": "Entrar no estúdio",
+    "loginSubtitle": "Publique o episódio, acompanhe a audiência e cuide da distribuição.",
+    "registerTitle": "Criar conta",
+    "registerSubtitle": "Comece a publicar o seu programa hoje.",
+    "email": "E-mail",
+    "password": "Senha",
+    "name": "Nome",
+    "showName": "Nome do programa",
+    "remember": "Manter conectado",
+    "forgot": "Esqueci a senha",
+    "loginCta": "Entrar",
+    "registerCta": "Criar conta",
+    "loggingIn": "Entrando…",
+    "noAccount": "Ainda não tem conta?",
+    "hasAccount": "Já tem conta?",
+    "loginLink": "Entrar",
+    "loginError": "Informe e-mail e senha.",
+    "loginSuccess": "Bem-vinda de volta",
+    "registerSuccess": "Conta criada",
+    "demoTitle": "Conta de demonstração",
+    "demoHint": "Autenticação fictícia: qualquer e-mail e senha entram.",
+    "terms": "Aceito os termos de uso e a política de privacidade."
+  },
+  "validation": {
+    "required": "Campo obrigatório",
+    "email": "E-mail inválido",
+    "min": "Escreva pelo menos {{count}} caracteres"
+  },
+  "episodeStatuses": {
+    "rascunho": "Rascunho",
+    "agendado": "Agendado",
+    "publicado": "Publicado"
+  },
+  "adSlots": {
+    "pre-roll": "Pré-roll",
+    "mid-roll": "Mid-roll",
+    "pos-roll": "Pós-roll"
+  },
+  "feedStates": {
+    "ativo": "Ativo",
+    "pendente": "Pendente",
+    "erro": "Com erro"
+  },
+  "player": {
+    "play": "Tocar",
+    "pause": "Pausar",
+    "listen": "Ouvir",
+    "back15": "Voltar 15 segundos",
+    "forward15": "Avançar 15 segundos",
+    "speed": "Velocidade",
+    "volume": "Volume",
+    "close": "Fechar o player",
+    "noChapter": "Sem capítulo neste ponto"
+  },
+  "episode": {
+    "seasonEpisode": "T{{season}} · Ep. {{number}}",
+    "season": "Temporada {{season}}",
+    "explicit": "Conteúdo adulto",
+    "chapters": "Capítulos",
+    "chaptersHint": "Clique num capítulo para saltar a posição do player.",
+    "noChapters": "Este episódio ainda não tem capítulos.",
+    "transcript": "Transcrição",
+    "transcriptHint": "A linha do segundo atual fica destacada; clique para ir ao ponto.",
+    "about": "Sobre o episódio",
+    "guests": "Convidados",
+    "links": "Links citados",
+    "related": "Episódios relacionados",
+    "tags": "Assuntos",
+    "downloads": "Downloads",
+    "listeners": "Ouvintes únicos",
+    "completion": "Taxa de conclusão",
+    "duration": "Duração",
+    "publishedOn": "Publicado em {{date}}",
+    "playFrom": "Ouvir a partir de {{time}}",
+    "countdownDays": "Em {{days}}d {{hours}}h",
+    "countdownHours": "Em {{hours}}h {{minutes}}min",
+    "countdownNow": "Publicando agora",
+    "notFoundTitle": "Episódio não encontrado",
+    "notFoundDesc": "Ele pode ter virado rascunho ou mudado de endereço.",
+    "backToList": "Ver todos os episódios"
+  },
+  "transcript": {
+    "emptyTitle": "Transcrição em processamento",
+    "emptyDesc": "A transcrição deste episódio ainda não ficou pronta. Os capítulos já ajudam a navegar.",
+    "searchPlaceholder": "Buscar na transcrição",
+    "follow": "Acompanhar o player"
+  },
+  "guest": {
+    "eyebrow": "Convidado",
+    "episodeCount": "{{count}} episódios",
+    "episodes": "Participou destes episódios",
+    "links": "Onde encontrar",
+    "notFoundTitle": "Convidado não encontrado",
+    "notFoundDesc": "O endereço não existe ou o perfil foi removido.",
+    "back": "Ver todos os episódios"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Episódio mais recente",
+      "badge": "{{count}} episódios publicados",
+      "notes": "Ver as notas do episódio",
+      "chapters": "{{count}} capítulos"
+    },
+    "seasons": {
+      "eyebrow": "Arquivo",
+      "title": "Temporadas",
+      "subtitle": "Cada temporada tem oito conversas em volta de uma pergunta só.",
+      "episodes": "{{count}} episódios",
+      "open": "Ver os episódios"
+    },
+    "recent": {
+      "eyebrow": "Novidades",
+      "title": "Episódios recentes",
+      "subtitle": "As últimas conversas, com capítulo e transcrição.",
+      "all": "Ver todos os episódios"
+    },
+    "hosts": {
+      "eyebrow": "Quem apresenta",
+      "title": "As vozes do programa",
+      "subtitle": "Duas pessoas na cabine, uma pergunta por episódio."
+    },
+    "platforms": {
+      "eyebrow": "Onde ouvir",
+      "title": "Escolha o seu tocador",
+      "subtitle": "A Onda está em todos os agregadores que leem RSS.",
+      "followers": "{{count}} seguidores",
+      "open": "Abrir"
+    },
+    "newsletter": {
+      "title": "Receba o episódio no e-mail",
+      "subtitle": "Um aviso por semana, com as notas e os links citados. Sem mais nada.",
+      "placeholder": "voce@email.com",
+      "cta": "Quero receber",
+      "success": "Pronto! Confirme no e-mail que acabamos de enviar.",
+      "hint": "Dá para cancelar em um clique, em qualquer envio."
+    }
+  },
+  "episodes": {
+    "eyebrow": "Arquivo completo",
+    "title": "Episódios",
+    "subtitle": "Busque por assunto, filtre por temporada, convidado ou duração.",
+    "searchPlaceholder": "Buscar por título, assunto ou tema",
+    "season": "Temporada",
+    "allSeasons": "Todas as temporadas",
+    "guest": "Convidado",
+    "allGuests": "Todos os convidados",
+    "duration": "Duração",
+    "durations": {
+      "all": "Qualquer duração",
+      "curto": "Até 30 min",
+      "medio": "De 30 a 50 min",
+      "longo": "Mais de 50 min"
+    },
+    "sort": "Ordenar",
+    "sorts": {
+      "recentes": "Mais recentes",
+      "antigos": "Mais antigos",
+      "populares": "Mais ouvidos",
+      "longos": "Mais longos",
+      "curtos": "Mais curtos"
+    },
+    "count": "{{count}} episódios",
+    "emptyTitle": "Nenhum episódio encontrado",
+    "emptyDesc": "Tente outro termo ou tire um dos filtros."
+  },
+  "about": {
+    "eyebrow": "Sobre",
+    "title": "O programa",
+    "subtitle": "Uma conversa por semana com quem faz — sem palestra e sem atalho.",
+    "showText1": "A Onda nasceu de uma reclamação: quase toda entrevista sobre trabalho fica na superfície. A gente queria a parte chata, a que explica como a decisão foi tomada, quanto custou e o que a pessoa faria diferente.",
+    "showText2": "São três temporadas, oito episódios cada, gravados em estúdio e publicados com capítulos e transcrição. Nada de convidado repetido só porque rendeu audiência.",
+    "hostsTitle": "Quem apresenta",
+    "hostsSubtitle": "Duas pessoas na cabine, uma pergunta por episódio.",
+    "sponsorTitle": "Patrocine a Onda",
+    "sponsorSubtitle": "Inserção lida pelos apresentadores, em pré, mid ou pós-roll. Sem anúncio programático.",
+    "kit": {
+      "downloads": "Downloads acumulados",
+      "listeners": "Ouvintes únicos",
+      "completion": "Taxa média de conclusão",
+      "episodes": "Episódios publicados",
+      "cta": "Pedir o mídia kit"
+    },
+    "faqTitle": "Perguntas frequentes",
+    "faqSubtitle": "O que mais chega na nossa caixa de entrada.",
+    "faq": {
+      "q1": "Com que frequência sai episódio novo?",
+      "a1": "Toda quinta-feira de manhã, dentro da temporada. Entre uma temporada e outra a gente para por alguns meses para gravar tudo de novo.",
+      "q2": "Onde eu escuto?",
+      "a2": "Em qualquer aplicativo que leia RSS. O feed é público e está no rodapé desta página; nada é exclusivo de uma plataforma.",
+      "q3": "Os episódios têm transcrição?",
+      "a3": "Os publicados a partir da segunda temporada têm transcrição sincronizada. Clicar numa linha leva o player até aquele ponto.",
+      "q4": "Como sugerir um convidado?",
+      "a4": "Escreva para o e-mail do programa contando quem é e qual é a pergunta que você gostaria de ver respondida. Sugestão sem pergunta a gente costuma não usar.",
+      "q5": "Posso usar um trecho no meu material?",
+      "a5": "Pode, citando o programa e o número do episódio. Para uso comercial, fale com a gente antes.",
+      "q6": "Vocês aceitam patrocínio de qualquer empresa?",
+      "a6": "Não. A gente recusa anúncio de crédito consignado, aposta e curso de enriquecimento rápido, e avisa no episódio quando o patrocinador é citado na conversa."
+    }
+  },
+  "dashboard": {
+    "title": "Visão geral",
+    "subtitle": "Como o programa está indo neste mês.",
+    "kpi": {
+      "monthDownloads": "Downloads no mês",
+      "monthDownloadsHint": "Comparado ao mês anterior",
+      "listeners": "Ouvintes únicos",
+      "listenersHint": "Acumulado dos episódios publicados",
+      "completion": "Taxa de conclusão",
+      "completionHint": "Média ponderada pelos downloads",
+      "subscribers": "Assinantes do boletim",
+      "subscribersHint": "Recebem o aviso semanal"
+    },
+    "charts": {
+      "daily": "Downloads por dia",
+      "dailySeries": "Downloads",
+      "dailyHint": "Últimos {{count}} dias",
+      "monthly": "Downloads por mês",
+      "monthlyHint": "Últimos 12 meses"
+    },
+    "topEpisodes": "Episódios mais ouvidos",
+    "upcoming": "Próximos agendados",
+    "noUpcoming": "Nenhum episódio agendado no momento.",
+    "scheduleOne": "Agendar um episódio",
+    "openEpisode": "Abrir no editor"
+  },
+  "episodesAdmin": {
+    "title": "Episódios",
+    "subtitle": "Publique, agende ou duplique. A duração e as métricas vêm do episódio.",
+    "new": "Novo episódio",
+    "searchPlaceholder": "Buscar por título ou assunto",
+    "allStatus": "Todas as situações",
+    "allSeasons": "Todas as temporadas",
+    "table": {
+      "episode": "Episódio",
+      "season": "Temporada",
+      "duration": "Duração",
+      "downloads": "Downloads",
+      "date": "Data",
+      "status": "Situação"
+    },
+    "publish": "Publicar agora",
+    "schedule": "Agendar",
+    "duplicate": "Duplicar",
+    "unpublish": "Voltar para rascunho",
+    "open": "Abrir editor",
+    "published": "Episódio publicado",
+    "scheduled": "Episódio agendado",
+    "duplicated": "Episódio duplicado",
+    "unpublished": "Episódio voltou para rascunho",
+    "removed": "Episódio removido",
+    "confirmRemove": "Excluir este episódio?",
+    "confirmRemoveDesc": "A ação não pode ser desfeita nesta demonstração.",
+    "scheduleTitle": "Agendar publicação",
+    "scheduleHint": "O episódio entra no feed automaticamente na data escolhida.",
+    "scheduleDate": "Data e hora",
+    "emptyTitle": "Nenhum episódio encontrado",
+    "emptyDesc": "Ajuste os filtros ou crie um episódio novo."
+  },
+  "editor": {
+    "newTitle": "Novo episódio",
+    "newSubtitle": "Comece pelo título; o resto pode ser preenchido depois.",
+    "editTitle": "Editar episódio",
+    "untitled": "Episódio sem título",
+    "saved": "Episódio salvo",
+    "created": "Episódio criado",
+    "backToList": "Voltar para a lista",
+    "viewPublic": "Ver na página do programa",
+    "tabs": {
+      "audio": "Áudio",
+      "notes": "Notas",
+      "guests": "Convidados",
+      "transcript": "Transcrição",
+      "publish": "Publicação"
+    },
+    "audio": {
+      "waveTitle": "Faixa do episódio",
+      "dragHint": "Arraste os marcadores para mudar o início do capítulo.",
+      "chapterTitle": "Título do capítulo",
+      "chapterStart": "Início do capítulo",
+      "addChapter": "Adicionar capítulo",
+      "goTo": "Ouvir a partir daqui",
+      "trimTitle": "Corte da faixa",
+      "trimHint": "O corte não altera o arquivo nesta demonstração — serve para marcar o trecho aproveitado.",
+      "trimStart": "Início",
+      "trimEnd": "Fim",
+      "trimResult": "Trecho aproveitado: {{duration}}",
+      "durationTitle": "Duração da faixa",
+      "durationHint": "Tudo o que aparece como tempo é derivado deste valor."
+    },
+    "notes": {
+      "title": "Descrição em blocos",
+      "hint": "É o que aparece na página do episódio e no feed RSS.",
+      "moveUp": "Mover para cima",
+      "moveDown": "Mover para baixo",
+      "addItem": "Adicionar item",
+      "itemPlaceholder": "Um tópico por linha",
+      "linkLabel": "Texto do link",
+      "blocks": {
+        "paragraph": "Parágrafo",
+        "heading": "Título",
+        "list": "Lista",
+        "quote": "Citação",
+        "link": "Link"
+      },
+      "placeholders": {
+        "paragraph": "Explique em três a cinco linhas do que trata o episódio.",
+        "heading": "Título da seção",
+        "quote": "A melhor frase da conversa"
+      }
+    },
+    "guests": {
+      "title": "Quem participa",
+      "hint": "Marque os convidados deste episódio. O perfil deles lista os episódios automaticamente.",
+      "selected": "{{count}} selecionados",
+      "empty": "Nenhum convidado cadastrado ainda."
+    },
+    "transcriptTab": {
+      "title": "Blocos de transcrição",
+      "hint": "Edite o texto, troque o falante e ouça a partir de cada linha.",
+      "speaker": "Falante",
+      "text": "Texto",
+      "empty": "Este episódio ainda não tem transcrição."
+    },
+    "publish": {
+      "title": "Título",
+      "titlePlaceholder": "Como o time dobrou de tamanho",
+      "subtitle": "Subtítulo",
+      "subtitlePlaceholder": "Uma linha que aparece na lista e no feed.",
+      "slug": "Endereço",
+      "season": "Temporada",
+      "number": "Número do episódio",
+      "status": "Situação",
+      "date": "Data de publicação",
+      "scheduledAt": "Publicar em",
+      "tags": "Assuntos",
+      "tagsPlaceholder": "Digite e pressione Enter",
+      "explicit": "Conteúdo adulto",
+      "explicitHint": "Marca o episódio como explícito no feed.",
+      "cover": "Semente da capa",
+      "coverHint": "A capa é gerada da semente — troque a palavra para trocar a imagem."
+    }
+  },
+  "audience": {
+    "title": "Audiência",
+    "subtitle": "De onde vêm os downloads e onde as pessoas param de ouvir.",
+    "kpi": {
+      "downloads": "Downloads acumulados",
+      "listeners": "Ouvintes únicos",
+      "completion": "Conclusão média",
+      "episodes": "Episódios publicados"
+    },
+    "byEpisode": "Downloads por episódio",
+    "byEpisodeHint": "Só os episódios publicados entram na conta.",
+    "byPlatform": "Por plataforma",
+    "byCountry": "Por país",
+    "retention": "Curva de retenção",
+    "retentionHint": "Vinte pontos ao longo do episódio. A anotação marca a maior queda.",
+    "selectEpisode": "Episódio",
+    "dropAt": "Maior queda em {{time}} ({{delta}})",
+    "noRetention": "Sem dados de retenção para este episódio.",
+    "downloads": "Downloads",
+    "completion": "Conclusão",
+    "listeners": "Ouvintes",
+    "emptyTitle": "Nada para mostrar ainda",
+    "emptyDesc": "Publique um episódio para começar a acompanhar a audiência."
+  },
+  "distribution": {
+    "title": "Distribuição",
+    "subtitle": "O feed, o estado de cada plataforma e os patrocinadores.",
+    "feedTitle": "Feed RSS",
+    "feedHint": "É este endereço que você cadastra em cada agregador.",
+    "copy": "Copiar XML",
+    "copyUrl": "Copiar endereço",
+    "copied": "Copiado para a área de transferência",
+    "copyFailed": "Não foi possível copiar",
+    "xmlTitle": "Prévia do XML",
+    "xmlHint": "Gerado dos episódios publicados — {{count}} itens na prévia.",
+    "showAll": "Ver o feed inteiro",
+    "showLess": "Ver menos",
+    "platforms": "Plataformas",
+    "platformsHint": "Estado da última sincronização de cada agregador.",
+    "followers": "Seguidores",
+    "lastSync": "Última sincronização",
+    "open": "Abrir",
+    "resync": "Sincronizar de novo",
+    "resynced": "Sincronização solicitada",
+    "sponsors": "Patrocinadores",
+    "sponsorsHint": "Inserção lida pelos apresentadores, por espaço do anúncio."
+  },
+  "sponsors": {
+    "impressions": "Impressões",
+    "cpm": "CPM",
+    "revenue": "Estimado",
+    "inEpisodes": "Em {{count}} episódios",
+    "editTitle": "Editar patrocinador",
+    "name": "Nome",
+    "slot": "Espaço do anúncio",
+    "cpmField": "CPM (R$ por mil)",
+    "episodes": "Episódios com inserção",
+    "saved": "Patrocinador atualizado",
+    "totalRevenue": "Faturamento estimado"
+  },
+  "guestsAdmin": {
+    "title": "Convidados",
+    "subtitle": "Foto, bio, redes e os episódios em que cada pessoa participou.",
+    "new": "Novo convidado",
+    "searchPlaceholder": "Buscar por nome, função ou bio",
+    "newTitle": "Novo convidado",
+    "editTitle": "Editar convidado",
+    "created": "Convidado cadastrado",
+    "updated": "Convidado atualizado",
+    "removed": "Convidado removido",
+    "confirmRemove": "Remover este convidado?",
+    "confirmRemoveDesc": "Ele sai também dos episódios em que estava marcado.",
+    "episodes": "Episódios",
+    "viewPublic": "Ver o perfil público",
+    "emptyTitle": "Nenhum convidado",
+    "emptyDesc": "Cadastre a primeira pessoa para marcá-la nos episódios.",
+    "form": {
+      "name": "Nome",
+      "slug": "Endereço",
+      "role": "Função",
+      "bio": "Bio",
+      "avatar": "Semente da foto",
+      "avatarHint": "A foto é gerada da semente — troque a palavra para trocar a imagem.",
+      "links": "Links",
+      "linkLabel": "Texto",
+      "linkHref": "Endereço",
+      "addLink": "Adicionar link"
+    }
+  },
+  "settings": {
+    "title": "Configurações",
+    "subtitle": "Perfil, dados do programa, monetização e preferências.",
+    "saved": "Preferência salva",
+    "tabs": {
+      "profile": "Perfil",
+      "show": "Programa",
+      "monetization": "Monetização",
+      "appearance": "Aparência"
+    },
+    "profile": {
+      "title": "Dados do perfil",
+      "name": "Nome",
+      "email": "E-mail",
+      "role": "Função",
+      "saved": "Perfil atualizado"
+    },
+    "show": {
+      "title": "Dados do programa",
+      "name": "Nome",
+      "tagline": "Chamada",
+      "category": "Categoria",
+      "language": "Idioma do conteúdo",
+      "email": "E-mail de contato",
+      "cover": "Semente da capa",
+      "explicit": "Programa com conteúdo adulto",
+      "explicitHint": "Marca o programa inteiro como explícito no feed.",
+      "saved": "Programa atualizado"
+    },
+    "monetization": {
+      "title": "Monetização",
+      "ads": "Aceitar patrocínio",
+      "adsDesc": "Permite marcar inserções nos episódios.",
+      "dynamic": "Inserção dinâmica",
+      "dynamicDesc": "Troca o anúncio em episódios antigos sem republicar.",
+      "supporters": "Apoio recorrente",
+      "supportersDesc": "Mostra o botão de apoio na página do programa.",
+      "cpmFloor": "CPM mínimo aceito",
+      "estimated": "Faturamento estimado no mês"
+    },
+    "appearance": {
+      "dark": "Tema escuro",
+      "darkDesc": "Vale para a página do programa e para o estúdio.",
+      "language": "Idioma da interface",
+      "languageHint": "Muda só a interface. O conteúdo dos episódios continua no idioma em que foi gravado."
+    },
+    "reset": {
+      "title": "Restaurar os dados de demonstração",
+      "desc": "Volta episódios, convidados e patrocinadores ao estado original.",
+      "action": "Restaurar",
+      "done": "Dados de demonstração restaurados"
+    }
+  },
+  "cookie": {
+    "title": "Usamos cookies",
+    "desc": "Utilizamos cookies para lembrar a sua posição no episódio e as preferências de reprodução.",
+    "policy": "Política de privacidade",
+    "accept": "Aceitar",
+    "decline": "Recusar"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "desc": "O endereço não existe ou o conteúdo foi movido.",
+    "back": "Voltar ao estúdio",
+    "home": "Ir para a página do programa"
+  }
+}
